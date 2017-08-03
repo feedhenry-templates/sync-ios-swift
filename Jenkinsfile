@@ -14,7 +14,7 @@ BUILD_CONFIG = params?.BUILD_CONFIG?.trim()                                // e.
 // sample values commented below are for https://github.com/feedhenry-templates/sync-ios-swift
 /* ------------- use these to hardcode things in Jenkinsfile ---------------- */
 PROJECT_NAME = "sync-ios-swift"
-INFO_PLIST = "sync-ios-swift/sync-ios-swift-Info.plist"
+INFO_PLIST = "sync-ios-app/sync-ios-app-Info.plist"
 VERSION = "0.1-alpha"
 SHORT_VERSION = "0.1"
 BUNDLE_ID = "com.feedhenry.sync-ios-swift"
