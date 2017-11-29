@@ -38,7 +38,9 @@ open class RootViewController: UITableViewController {
         print("::onDataUpdated::refresh tableview")
         items = dataManager.listItems()
 
-        tableView.reloadData()
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
     }
 }
 
